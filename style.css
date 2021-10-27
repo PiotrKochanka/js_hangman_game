@@ -1,0 +1,39 @@
+body 
+{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.container
+{
+    max-width: 1232px;
+    flex-basis: 1232px;
+    margin: 0 auto;
+}
+.text
+{
+    border: 1px solid white;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+/*Line*/
+.line
+{
+    display: flex;
+    gap: 0 32px;
+}
+.hangman
+{
+    border: 1px solid white;
+    height: 300px;
+    flex: 1;
+}
+.alphabet
+{
+    border: 1px solid white;
+    height: 300px;
+    flex: 1;
+}
