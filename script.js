@@ -3,6 +3,7 @@ var text = "jajko czy kura";
 var dlugosc = text.length;
 
 var haslo1 = "";
+
 /* zamiana liter w kreski */
 
 for(var i = 0; i < dlugosc; i++)
@@ -59,7 +60,6 @@ function wypiszHaslo(){
 window.onload = start;
 
 
-
 function start(){
     var tresc_diva = "";
 
@@ -72,3 +72,10 @@ function start(){
 
     wypiszHaslo();
 }
+
+
+/* Hangman */
+
+var obrazek = document.getElementById("hangman");
+
+obrazek.innerHTML = "<img src=\"graphic/s0.jpg\" alt=\"hangman\">";

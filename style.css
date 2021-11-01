@@ -32,7 +32,8 @@ body
 }
 #hangman
 {
-    border: 1px solid white;
+    display: flex;
+    justify-content: center;
     height: 300px;
     flex: 1;
 }
